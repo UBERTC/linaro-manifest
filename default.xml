@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote  name="linaro-android"
+           fetch="git://android.git.linaro.org/"
+           review="review.android.git.linaro.org" />
+  <remote  name="uu"
+           fetch="https://github.com/UBERTC/" />
+  <remote  name="gh"
+           fetch="https://github.com/" />
+  <default revision="linaro-master"
+           remote="linaro-android" />
+
+  <project path="manifest" name="linaro-manifest" remote="uu" revision="master" />
+  <project path="benchmark" name="toolchain/benchmark" revision="master" />
+  <project path="binutils/binutils-current" name="binutils" remote="uu" revision="linaro-2.25" />
+  <project path="build" name="linaro-build" remote="uu" revision="master" />
+  <project path="cloog/cloog-current" name="cloog" remote="uu" revision="0.18.3" />
+  <project path="cloog/cloog-current/isl" name="isl" remote="uu" revision="0.14" />
+  <project path="cloog/cloog-current/osl" name="osl" remote="uu" revision="0.9.0" />
+  <project path="gcc/gcc-UBER" name="GCC-UBER" remote="uu" revision="linaro-4.9" />
+  <project path="gdb/gdb-current" name="gdb" remote="uu" revision="linaro-7.8" />
+  <project path="gmp/gmp-current" name="gmp" remote="uu" revision="6.0.0" />
+  <project path="isl/isl-current" name="isl" remote="uu" revision="0.14" />
+  <project path="mpc/mpc-current" name="mpc" remote="uu" revision="linaro-1.0.2" />
+  <project path="mpfr/mpfr-current" name="mpfr" remote="uu" revision="linaro-3.1.2" />
+  <project path="scripts" name="linaro-scripts" remote="uu" revision="master" />
+  <project path="sysroot" name="sysroot" remote="uu" revision="gcc-4.8" />
+</manifest>
