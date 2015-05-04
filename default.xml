@@ -15,10 +15,10 @@
   <project path="cloog/cloog-current/osl" name="osl" revision="0.9.0" />
   <project path="gcc/gcc-UBER" name="GCC-UBER" revision="linaro-4.9" />
   <project path="gdb/gdb-current" name="gdb" revision="linaro-7.8" />
-  <project path="gmp/gmp-current" name="gmp" revision="6.0.0" />
+  <project path="gmp/gmp-current" name="gmp" revision="uber" />
   <project path="isl/isl-current" name="isl" revision="0.14" />
-  <project path="mpc/mpc-current" name="mpc" revision="linaro-1.0.2" />
-  <project path="mpfr/mpfr-current" name="mpfr" revision="linaro-3.1.2" />
+  <project path="mpc/mpc-current" name="mpc" revision="uber" />
+  <project path="mpfr/mpfr-current" name="mpfr" revision="uber" />
   <project path="scripts" name="linaro-scripts" />
   <project path="sysroot" name="sysroot" revision="gcc-4.8" />
 </manifest>
