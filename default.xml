@@ -20,5 +20,5 @@
   <project path="mpc/mpc-current" name="mpc" revision="uber" />
   <project path="mpfr/mpfr-current" name="mpfr" revision="uber" />
   <project path="scripts" name="linaro-scripts" />
-  <project path="sysroot" name="sysroot" revision="gcc-4.8" />
+  <project path="sysroot" name="sysroot" revision="gcc-4.9" />
 </manifest>
