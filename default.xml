@@ -14,7 +14,6 @@
   <project path="cloog/cloog-current/isl" name="isl" revision="uber" />
   <project path="cloog/cloog-current/osl" name="osl" revision="uber" />
   <project path="gcc/gcc-UBER" name="GCC-UBER" revision="linaro-4.9" />
-  <project path="gdb/gdb-current" name="gdb" revision="linaro-7.8" />
   <project path="gmp/gmp-current" name="gmp" revision="uber" />
   <project path="isl/isl-current" name="isl" revision="uber" />
   <project path="mpc/mpc-current" name="mpc" revision="uber" />
