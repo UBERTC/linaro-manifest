@@ -8,7 +8,7 @@
            sync-c="true" />
 
   <project path="manifest" name="linaro-manifest" />
-  <project path="binutils/binutils-current" name="binutils" revision="linaro-master" />
+  <project path="binutils/binutils-current" name="binutils" revision="2.25" />
   <project path="build" name="linaro-build" />
   <project path="cloog/cloog-current" name="cloog" revision="uber" />
   <project path="cloog/cloog-current/isl" name="isl" revision="uber" />
